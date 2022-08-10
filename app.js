@@ -54,7 +54,7 @@ function newsFeed() {
 
   for(let i = (store.currentPage - 1) * 10 ; i < store.currentPage * 10; i++) {
     newsList.push(`
-      <div class="p-6 ${NewsFeed[i].read ? 'bg-orange-300' : 'bg-white'} mt-6 rounded-lg shadow-md transition-colors duration-500 hover:bg-green-100">
+      <div class="p-6 ${NewsFeed[i].read ? 'bg-orange-100' : 'bg-white'} mt-6 rounded-lg shadow-md transition-colors duration-500 hover:bg-green-100">
         <div class="flex">
           <div class="flex-auto">
             <a href="#/show/${NewsFeed[i].id}">${NewsFeed[i].title}</a>  
