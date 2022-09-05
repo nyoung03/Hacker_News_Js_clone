@@ -4,6 +4,8 @@
 ajax를 사용하여 api를 사용했습니다. <br />
 css파트는 js에서 처리할 수 있는 Tailwind CSS를 사용하였습니다. <br />
 
+<a href="https://nyoung03.github.io/Hacker_News_Js_clone/">보러가기</a>
+
 ### 스텍
 - javascript
 - Tailwind CSS
